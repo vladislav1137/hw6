@@ -60,6 +60,13 @@ public class Main {
 
     public static void task8 () {
         System.out.println("Задача 8");
+        int inMonth= 29000;
+        int total = 0;
+        for (int i = 1; i<13; i++){
+            total = total + inMonth;
+            System.out.println("Месяц " + i +", сумма накоплений равна " + total+  " рублей");
+        }
+
     }
     public static void task9 () {
         System.out.println("Задача 9");
