@@ -47,6 +47,9 @@ public class Main {
 
     public static void task6 () {
         System.out.println("Задача 6");
+        for (int i = 7; i < 99; i = i +7){
+            System.out.println(i);
+        }
     }
     public static void task7 () {
         System.out.println("Задача 7");
