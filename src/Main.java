@@ -81,5 +81,11 @@ public class Main {
 
     public static void task10 () {
         System.out.println("Задача 10");
+        int x = 2;
+        for (int i = 1;i<11; i++){
+            int y = x * i;
+            System.out.println(x+"*"+i+"="+y);
+        }
+
     }
 }
